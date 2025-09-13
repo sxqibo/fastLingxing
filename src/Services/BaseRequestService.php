@@ -1,9 +1,9 @@
 <?php
 
-namespace Ak\OpenAPI\Services;
+namespace Sxqibo\FastLingxing\Services;
 
-use Ak\OpenAPI\Exception\InvalidResponseException;
-use Ak\OpenAPI\Exception\RequestException;
+use Sxqibo\FastLingxing\Exception\InvalidResponseException;
+use Sxqibo\FastLingxing\Exception\RequestException;
 
 class BaseRequestService
 {
@@ -13,8 +13,8 @@ class BaseRequestService
      * @param array $params
      *
      * @return array
-     * @throws \Ak\OpenAPI\Exception\InvalidResponseException
-     * @throws \Ak\OpenAPI\Exception\RequestException
+     * @throws \Sxqibo\FastLingxing\Exception\InvalidResponseException
+     * @throws \Sxqibo\FastLingxing\Exception\RequestException
      */
     public static function sendPost($url, $params = [], $headers = [])
     {
@@ -27,8 +27,8 @@ class BaseRequestService
      * @param array $params
      *
      * @return array
-     * @throws \Ak\OpenAPI\Exception\InvalidResponseException
-     * @throws \Ak\OpenAPI\Exception\RequestException
+     * @throws \Sxqibo\FastLingxing\Exception\InvalidResponseException
+     * @throws \Sxqibo\FastLingxing\Exception\RequestException
      */
     public static function sendGet($url, $params = [], $headers = [])
     {
@@ -47,8 +47,8 @@ class BaseRequestService
      * @param array $headers
      *
      * @return array
-     * @throws \Ak\OpenAPI\Exception\InvalidResponseException
-     * @throws \Ak\OpenAPI\Exception\RequestException
+     * @throws \Sxqibo\FastLingxing\Exception\InvalidResponseException
+     * @throws \Sxqibo\FastLingxing\Exception\RequestException
      */
     public static function sendRequest($method, $url, $params = '', $headers = [])
     {

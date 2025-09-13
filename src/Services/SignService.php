@@ -1,8 +1,8 @@
 <?php
 
-namespace Ak\OpenAPI\Services;
+namespace Sxqibo\FastLingxing\Services;
 
-use Ak\OpenAPI\Exception\EncryptException;
+use Sxqibo\FastLingxing\Exception\EncryptException;
 
 class SignService
 {

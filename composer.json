@@ -1,6 +1,6 @@
 {
-    "name": "ak/openapi",
-    "description": "a openapi sdk",
+    "name": "sxqibo/fast-lingxing",
+    "description": "Fast Lingxing OpenAPI SDK for PHP",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ak\\OpenAPI\\": "src/"
+            "Sxqibo\\FastLingxing\\": "src/"
         }
     }
 }

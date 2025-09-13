@@ -23,12 +23,12 @@ define('MAX_LENGTH', (int)EnvLoader::get('MAX_LENGTH', '800'));
 /**
  * 创建 OpenAPI 客户端实例
  * 
- * @return \Ak\OpenAPI\Services\OpenAPIRequestService
- * @throws \Ak\OpenAPI\Exception\RequiredParamsEmptyException
+ * @return \Sxqibo\FastLingxing\Services\OpenAPIRequestService
+ * @throws \Sxqibo\FastLingxing\Exception\RequiredParamsEmptyException
  */
 function createOpenAPIClient()
 {
-    return new \Ak\OpenAPI\Services\OpenAPIRequestService(
+    return new \Sxqibo\FastLingxing\Services\OpenAPIRequestService(
         OPENAPI_HOST,
         OPENAPI_APP_ID,
         OPENAPI_APP_SECRET
@@ -38,7 +38,7 @@ function createOpenAPIClient()
 /**
  * 显示 AccessToken 信息
  * 
- * @param \Ak\OpenAPI\Dto\AccessTokenDto $accessTokenDto
+ * @param \Sxqibo\FastLingxing\Dto\AccessTokenDto $accessTokenDto
  */
 function displayAccessTokenInfo($accessTokenDto)
 {

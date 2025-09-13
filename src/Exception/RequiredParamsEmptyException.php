@@ -1,6 +1,6 @@
 <?php
 
-namespace Ak\OpenAPI\Exception;
+namespace Sxqibo\FastLingxing\Exception;
 
 use Exception;
 

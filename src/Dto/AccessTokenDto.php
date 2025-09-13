@@ -1,6 +1,6 @@
 <?php
 
-namespace Ak\OpenAPI\Dto;
+namespace Sxqibo\FastLingxing\Dto;
 
 class AccessTokenDto
 {
