@@ -50,8 +50,8 @@ try {
         'sort_type' => 'desc',         // 排序方式：desc降序、asc升序
         
         // === 搜索参数 ===
-        //'search_field' => 'asin',     // 搜索字段：asin、parent_asin、msku、local_sku、item_name
-        //'search_value' => ['B085M7NH7K'], // 搜索值，最多50个
+        'search_field' => 'asin',     // 搜索字段：asin、parent_asin、msku、local_sku、item_name
+        'search_value' => ['B085M7NH7K'], // 搜索值，最多50个
         
         // === 站点和店铺 ===
         //'mid' => 1,                    // 站点ID
@@ -59,7 +59,7 @@ try {
         
         // === 时间范围（必填）===
         'start_date' => '2024-08-01',  // 开始日期，格式：YYYY-MM-DD
-        'end_date' => '2024-08-07',    // 结束日期，格式：YYYY-MM-DD，范围不超过92天
+        'end_date' => '2024-08-31',    // 结束日期，格式：YYYY-MM-DD，范围不超过92天
         
         // === 表头筛选 ===
         //'extend_search' => [
