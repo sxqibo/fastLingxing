@@ -60,7 +60,7 @@ function displayResponseInfo($response)
     echo "消息: " . ($response['message'] ?? $response['msg'] ?? 'N/A') . "\n";
     echo "请求ID: " . ($response['request_id'] ?? $response['trace_id'] ?? 'N/A') . "\n";
     if (isset($response['response_time'])) {
-        echo "响应时间: " . $response['response_time'] . "\n";
+    echo "响应时间: " . $response['response_time'] . "\n";
     }
 }
 

@@ -1,0 +1,154 @@
+正在生成AccessToken...
+AccessToken生成成功
+AccessToken: f3eb1a3b-259b-414f-8a46-6351d321c43e
+RefreshToken: d07117a4-ab7d-4a9d-8b0c-e20fcee11380
+过期时间: 2025-12-20 16:00:00
+
+
+=== 第一步：获取TEMU半托管店铺列表 ===
+找到 8 个TEMU半托管店铺
+
+=== 第二步：查询指定订单信息 ===
+平台订单号: PO-069-11096197571191076
+
+查询参数: store_id=8个店铺, platform_code=10024(TEMU半托管), platform_order_nos=PO-069-11096197571191076
+
+查询成功！
+找到订单数: 1
+
+=== 第三步：订单详细信息 ===
+订单号: PO-069-11096197571191076
+================================================================================
+
+订单字段详细说明:
+--------------------------------------------------------------------------------
+
+【基本信息】
+  store_id: 110546300432708096 - 店铺ID，多平台店铺唯一标识
+  global_order_no: 103641862568993859 - 系统单号，系统本地唯一订单号
+  order_from_name: 线上订单 - 订单来源（如：线上订单）
+  wid: 18568 - 仓库ID
+  reference_no:  - 平台参考号
+  amount_currency: CNY - 币种（如：USD、EUR、CNY）
+  remark:  - 客服备注
+
+【订单状态】
+  status: 6 - 系统订单状态（已发货）
+  split_type: 1 - 拆分单类型（1-原始单，2-合并单，3-拆分单）
+  delivery_type: 2 - 发货方式（1-混合方式，2-自发货，3-平台发货）
+
+【时间信息】
+  update_time: 1764958400 - 订单更新时间（字符串格式）
+  global_purchase_time: 1764406494 (2025-11-29 16:54:54) - 订购时间（时间戳，秒）
+  global_payment_time: 1764406494 (2025-11-29 16:54:54) - 付款时间（时间戳，秒）
+  global_review_time: 1764409004 (2025-11-29 17:36:44) - 审核时间（时间戳，秒）
+  global_distribution_time: 1764409004 (2025-11-29 17:36:44) - 配货时间（时间戳，秒）
+  global_delivery_time: 1764416253 (2025-11-29 19:37:33) - 发货时间（时间戳，秒）
+  global_latest_ship_time: 1764718199 - 发货时限
+
+【平台单信息】
+  平台单 1:
+    platform_order_no: PO-069-11096197571191076 - 平台订单号
+    platform_order_name: PO-069-11096197571191076 - 平台订单编号（特定平台使用，如Shopify）
+    platform_code: 10024 - 平台CODE（10024=TEMU半托管）
+    store_Country_code: FR - 订单国家（二位ISO代码，如US、DE）
+    order_from: 线上订单 - 订单来源
+    status: RECEIVED - 平台单状态
+    payment_status:  - 平台单支付状态
+    shipping_status:  - 平台单发货状态
+    purchase_time: 1764406494 (2025-11-29 16:54:54) - 订购时间（时间戳，秒）
+    payment_time: 1764406494 (2025-11-29 16:54:54) - 支付时间（时间戳，秒）
+    latest_ship_time: 1764718199 (2025-12-03 07:29:59) - 最后发货时间（时间戳，秒）
+
+【商品信息】
+  商品数量: 1
+  商品 1:
+    id: 151009867 - 系统商品唯一id
+    local_product_name: 金色9音 - 品名
+    title: Handpan - 22 pouces 9 notes D Kurd 440Hz - Handpan à accordage manuel - 2 maillets pour Handpan, sac souple, support et chiffon anti-poussière (Doré), Instruments de musique, Accessoires de film, Articles bizarres - 商品标题
+    local_sku: JINSE9 - SKU（本地SKU）
+    msku:  - MSKU（卖家SKU）
+    product_no: 44365346640 - 平台商品ID（亚马逊返回ASIN，多平台返回平台商品id）
+    order_item_no: 069-11096176599671076 - 订单明细单号
+    platform_order_no: PO-069-11096197571191076 - 平台单号（商品级别）
+    quantity: 1 - 数量
+    variant_attr: Doré - 变体属性（如：Black、Size-L等）
+    item_from_name: 线上 - 商品来源（1-线上，2-本地，3-本地自定义）
+    unit_price_amount: 0.00 - 单价（币种：CNY）
+    item_price_amount: 0.00 - 商品金额（币种：CNY）
+    discount_amount: 0.00 - 折扣（币种：CNY）
+    tax_amount: 0.00 - 商品税费（币种：CNY）
+    transaction_fee_amount: 0.00 - 商品交易费（币种：CNY）
+    sales_revenue_amount: 0.00 - 销售收益
+    customer_shipping_amount: 0.00 - 客付运费（币种：CNY）
+    customer_tip_amount: 0.00 - Shopify小费（币种：CNY）
+    cod_amount: 0.00 - COD费用（币种：CNY）
+    gift_wrap_amount: 0.00 - 礼品包装费（币种：CNY）
+    platform_tax_amount: 0.00 - 销售税（币种：CNY）
+    points_granted_amount: 0.00 - 积分成本（币种：CNY）
+    other_amount: 0.00 - 平台其他费用（币种：CNY）
+    other_fee: 0.00 - 其他费用（用户手动导入，有正有负）
+    platform_subsidy_amount: 0.00 - 平台补贴（目前仅TikTok、Shopee支持）
+    cg_price_amount: 500.00 - 采购成本（币种：CNY，取自产品管理固定值）
+    stock_cost_amount: 584.33 - 库存明细成本（币种：CNY，取自订单创建时库存明细计算成本）
+    wms_outbound_cost_amount: 569.60 - 实际出库成本（币种：CNY，取自销售出库单出库成本）
+    shipping_amount: 0.00 - 预估运费（币种：CNY）
+    wms_shipping_price_amount: 13.63 - 实际运费（币种：CNY，取自销售出库单运费）
+    stock_deduct_id:  - 备货店铺ID
+    stock_deduct_name: 无 - 备货店铺名称
+    platform_status: 2 - 平台订单商品状态
+    type: 产品 - 商品类型
+    is_bundled: 0 - 是否为捆绑产品（1-是，0-否）
+    remark:  - 商品备注
+
+【交易信息】
+  order_total_amount: ￥0.00 - 订单总额（币种：CNY）
+  order_item_amount: ￥0.00 - 商品金额（币种：CNY）
+  discount_amount: ￥0.00 - 折扣（币种：CNY）
+  customer_shipping_amount: ￥0.00 - 客付运费（币种：CNY）
+  customer_tax_amount_show: ￥0.00 - 客付税费（币种：CNY）
+  customer_tip_amount: ￥0.00 - 小费（币种：CNY）
+  transaction_fee_amount: ￥0.00 - 交易费（币种：CNY）
+  other_amount: ￥0.00 - 平台其他费
+  cod_amount: ￥0.00 - COD费用（币种：CNY）
+  gift_wrap_amount: ￥0.00 - 礼品包装费（币种：CNY）
+  platform_tax_amount: ￥0.00 - 销售税（币种：CNY）
+  points_granted_amount: ￥0.00 - 积分成本（币种：CNY）
+  other_fee: ￥0.00 - 其他费用（用户手动导入，有正有负）
+  platform_subsidy_amount: ￥0.00 - 平台补贴（目前仅TikTok、Shopee支持）
+  cg_price_amount: -￥500.00 - 采购成本（币种：CNY，取自产品管理固定值）
+  stock_cost_amount: -￥584.33 - 库存明细成本（币种：CNY，取自订单创建时库存明细计算成本）
+  wms_outbound_cost_amount: -￥569.60 - 实际出库成本（币种：CNY，取自销售出库单出库成本）
+  outbound_cost_amount: -￥500.00 - 预估出库成本（币种：CNY）
+  pre_cost_amount: -￥0.00 - 预估运费（币种：CNY）
+  wms_shipping_price_amount: -€13.63 - 实际运费（币种：CNY，取自销售出库单出库运费）
+  profit_amount: ￥-681.36 - 预估毛利润（币种：CNY）
+
+【物流信息】
+  status: 0 - 物流状态（待物流下单）
+  logistics_type_id: 203522549057854976 - 物流方式id
+  logistics_type_name: DHL国际包裹派送 - 物流方式名称
+  logistics_provider_id: 203522481153092096 - 物流商id
+  logistics_provider_name: 谷仓[正常使用] 德国仓库 - 物流商名称
+  actual_carrier: EU_DHL - 实际承运人
+  waybill_no: G9407-251129-0259 - 物流商返回的物流单号
+  tracking_no: CP103710126DE - 跟踪号
+  pre_weight: 8165 - 预估重量（g）
+  weight: 8000 - 实际重量（g）
+  weight_unit: g - 包裹实际重量单位
+  pre_fee_weight: 0 - 预估计费重量
+  pre_fee_weight_unit: g - 预估计费重单位
+  pkg_fee_weight: 8000 - 实际计费重量
+  pkg_fee_weight_unit: g - 实际计费重单位
+  pre_pkg_length: 59.1 - 预估包裹长（cm）
+  pre_pkg_width: 59.1 - 预估包裹宽（cm）
+  pre_pkg_height: 35.6 - 预估包裹高（cm）
+  pkg_length: 59.1 - 实际包裹长
+  pkg_width: 59.1 - 实际包裹宽
+  pkg_height: 35.6 - 实际包裹高
+  pkg_size_unit: cm - 包裹尺寸单位
+  cost_currency_code: EUR - 物流实际运费币种code
+  pre_cost_amount: -￥0.00 - 预估运费
+  cost_amount: 13.63 - 物流实际运费
+
+【其他字段】
