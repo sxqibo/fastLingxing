@@ -5,3 +5,6 @@ vendor/
 .env
 doc/
 composer.lock
+
+# 示例运行输出（常含 Token / 业务数据，勿提交）
+sample/**/*.txt

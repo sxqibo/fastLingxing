@@ -33,8 +33,8 @@ OPENAPI_APP_ID=your_app_id
 OPENAPI_APP_SECRET=your_app_secret
 
 # 示例配置
-SAMPLE_SID=10743                    # 店铺ID
-SAMPLE_WID=1,578,765               # 仓库ID
+SAMPLE_SID=your_seller_id           # 店铺ID
+SAMPLE_WID=your_warehouse_ids       # 仓库ID（多个用逗号分隔）
 DEFAULT_OFFSET=0                    # 默认分页偏移量
 DEFAULT_LENGTH=20                   # 默认分页长度
 MAX_LENGTH=800                      # 最大分页长度
